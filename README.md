@@ -1,1 +1,5 @@
 # embedded_project
+Đồ án tập trung vào việc thiết kế và triển khai hệ thống giám sát nhiệt độ đa nhiệm ứng dụng hệ điều hành thời gian thực (RTOS) trên vi điều khiển STM32F405 (sử dụng board mạch phát triển Open405R-C). Hệ thống được lập trình để thực thi song song các tác vụ bao gồm:
+- Thực hiện giao tiếp LCD với phần cứng để điều khiển cho hệ thống đồng thời thu thập liên tục, hiển thị thông số nhiệt độ nội của chip lên màn hình LCD.
+- Quản lý trạng thái giám sát linh hoạt thông qua giao diện điều khiển: ở chế độ hoạt động (Monitoring Mode - ON, kích hoạt qua nút "Play"), hệ thống tự động theo dõi tình trạng gia nhiệt của chip; khi nhiệt độ vượt ngưỡng an toàn (40°C), thời gian thực (timestamp) của sự kiện sẽ được lưu trữ vào bộ nhớ không biến đổi FRAM. Để bảo vệ phần cứng, nếu tình trạng quá nhiệt duy trì liên tục trong 5 giây, vi điều khiển sẽ tự động chuyển sang trạng thái ngủ sâu (Shutdown) và chờ tín hiệu đánh thức (Wake-up).
+- Khi chuyển sang chế độ tạm dừng (Monitoring Mode - OFF, kích hoạt qua nút "Pause"), hệ thống vô hiệu hóa cơ chế bảo vệ và bỏ qua các cảnh báo khi nhiệt độ vượt ngưỡng.
