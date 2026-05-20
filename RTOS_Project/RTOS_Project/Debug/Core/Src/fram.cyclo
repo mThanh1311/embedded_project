@@ -1,0 +1,5 @@
+../Core/Src/fram.c:8:19:FRAM_Init	1
+../Core/Src/fram.c:13:19:FRAM_Write	1
+../Core/Src/fram.c:19:19:FRAM_Read	1
+../Core/Src/fram.c:25:19:FRAM_WriteRecord	7
+../Core/Src/fram.c:66:19:FRAM_ReadRecord	6

@@ -1,0 +1,9 @@
+../Drivers/Touch/Touch.c:9:6:tp_init	8	static
+../Drivers/Touch/Touch.c:14:6:tp_draw_touch_point	32	static
+../Drivers/Touch/Touch.c:25:6:tp_draw_big_point	16	static
+../Drivers/Touch/Touch.c:33:6:tp_show_info	32	static
+../Drivers/Touch/Touch.c:68:9:tp_scan	16	static
+../Drivers/Touch/Touch.c:98:6:tp_adjust	88	static
+../Drivers/Touch/Touch.c:232:6:tp_dialog	16	static
+../Drivers/Touch/Touch.c:238:6:tp_draw_board	8	static
+../Drivers/Touch/Touch.c:252:6:tp_get_pos	16	static

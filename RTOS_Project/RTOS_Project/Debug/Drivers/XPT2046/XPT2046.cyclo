@@ -1,0 +1,7 @@
+../Drivers/XPT2046/XPT2046.c:3:9:xpt2046_write_byte	1
+../Drivers/XPT2046/XPT2046.c:11:6:xpt2046_init	1
+../Drivers/XPT2046/XPT2046.c:16:10:xpt2046_read_ad_value	1
+../Drivers/XPT2046/XPT2046.c:45:10:xpt2046_read_average	6
+../Drivers/XPT2046/XPT2046.c:71:6:xpt2046_read_xy	1
+../Drivers/XPT2046/XPT2046.c:79:6:xpt2046_twice_read_xy	9
+../Drivers/XPT2046/XPT2046.c:97:10:xpt2046_filter_read	6
